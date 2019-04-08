@@ -8,7 +8,7 @@ import Aux from '../../../hoc/Sig';
 const sideDrawer = (props) => {
     let attachedClasses = [classes.SideDrawer, classes.Close];
     if (props.open) {
-        attachedClasses = [classes.sideDrawer, classes.open];
+        attachedClasses = [classes.SideDrawer, classes.Open];
     }
 
     return (
